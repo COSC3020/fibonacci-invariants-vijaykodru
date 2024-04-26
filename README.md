@@ -28,3 +28,6 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+
+A good invariant for the fibonacci funstion is that each element of the array is defined by the help of last two elements in that array expect the first two elements. This means that adding two previous elements to get the next element in the array always holds true making this a good invariant. The first elements are derived by themseleves. In mathematical notation this can be defined as A(n) = A(n-1) + A(n-2). 
